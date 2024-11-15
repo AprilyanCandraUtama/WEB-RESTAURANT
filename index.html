@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Classique Restaurant</title>
+  </head>
+
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand">Classique <span style="color: #80FF00">Restaurant</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#menu" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#food">Food</a></li>
+                <li><a class="dropdown-item" href="#drink">Drink</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron" id="home">
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 class="about">About <span style="color: #80FF00;">Us</span></h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-ri">
+          <div class="col-md-4">
+            <p>Selamat datang Classique Restaurant, kami ada untuk membawa Anda merasakan kelezatan ramen yang autentik dan penuh cita rasa. Setiap mangkuk ramen kami</p>
+          </div>
+          <div class="col-md-4">
+            <p>dibuat dengan bahan-bahan pilihan dan resep yang diracik dengan penuh ketelitian agar setiap suapan menghadirkan kehangatan dan kelezatan Jepang yang sesungguhnya.</p>
+          </div>
+          <div class="col-md-4">
+            <p>Nikmati beragam rasa yang kami tawarkan, mulai dari ramen pedas yang menggugah selera, kuah kaldu yang lembut dan gurih, hingga ramen vegetarian yang segar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Menu -->
+    <section id="menu">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 class="menu">Other <span style="color: #80FF00;">Menu</span></h2>
+            <p class="row justify-content-center fs-5 text-ri">
+              Pilih berbagai menu yang anda inginkan :
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <!-- Menu Makanakan -->
+          <h3 id="food" class="menu" >Choose <span style="color:#80FF00">Food :</span></h3>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="/img/Shioramen.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Shio Ramen</h5>
+                <p class="card-text">Ramen dengan kuah berbahan dasar garam (shio), menghasilkan rasa asin yang halus.</p>
+                <h6 class="card-text">Rp55.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="/img/Shoyuramen.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Shoyu Ramen</h5>
+                <p class="card-text">Ramen dengan kuah kaldu berbahan dasar kecap asin (shoyu) yang memberikan rasa gurih, asin, dan sedikit manis.</p>
+                <h6 class="card-text">Rp60.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="/img/Misoramen.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Miso Ramen</h5>
+                <p class="card-text">Ramen dengan kuah berbahan dasar miso (pasta kedelai fermentasi) yang menghasilkan rasa gurih dan agak kental. </p>
+                <h6 class="card-text">Rp45.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="/img/Tonkotsuramen.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Tonkotsu Ramen</h5>
+                <p class="card-text">Ramen dengan kuah kaldu kental yang terbuat dari tulang babi yang direbus lama hingga menghasilkan kaldu kaya lemak.</p>
+                <h6 class="card-text">Rp56.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="/img/Aburaramen.png" class="card-img-top " alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Aburasoba Ramen</h5>
+                <p class="card-text">Ramen tanpa kuah juga biasa disebut ramen kering yang biasanya disajikan dengan saus minyak khusus.</p>
+                <h6 class="card-text">Rp45.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="/img/Curryramen.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Curry Ramen</h5>
+                <p class="card-text">Ramen dengan kuah kaldu berbumbu kari khas Jepang. Kuahnya memiliki rasa kari yang kaya dan sedikit pedas.</p>
+                <h6 class="card-text">Rp40.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/Veganramen.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Vegan Ramen</h5>
+                <p class="card-text">Ramen ini dibuat tanpa bahan hewani, dengan kuah yang biasanya berbahan dasar kaldu sayuran, jamur,atau rumput</p>
+                <h6 class="card-text">Rp50.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/Beeframen.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Beef Ramen</h5>
+                <p class="card-text">Ramen dengan kaldu berbahan dasar daging sapi, menghasilkan rasa yang lebih kuat dan gurih.</p>
+                <h6 class="card-text">Rp80.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Menu Minuman -->
+          <h3 id="drink" class="menu">Choose <span style="color:#80FF00">Drink :</span></h3>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/icematcha.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Ice Matcha</h5>
+                <h6 class="card-text">Rp10.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/icetea.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Ice Tea</h5>
+                <h6 class="card-text">Rp5.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/icecoffe.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Ice Coffe</h5>
+               
+                <h6 class="card-text">Rp10.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/MineralWater.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Mineral Water</h5>
+                <h6 class="card-text">Rp5.000</h5>
+                <button type="submit" class="btn btn-warning">Beli</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Akhir Menu -->
+
+   <!-- Contact -->
+   <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2 class="contact">Contact <span style="color: #80FF00;">Kami</span></h2>
+          <p class="row justify-content-center fs-5 text-center">
+            Jika ingin menghubungi kami bisa dengan mengisi nama, email, serta pesan pada formulir di bawah ini.
+          </p>
+        </div>
+      </div>
+
+      <!-- Baris untuk Form dan Map -->
+      <div class="row d-flex justify-content-center align-items-start bg-light p-3 rounded shadow">
+      <!-- Kolom untuk Map -->
+      <div class="col-md-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15817.177167617281!2d110.85752004999999!3d-7.651470999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3cff1a628e27%3A0x5027a76e356ba80!2sGentan%2C%20Kec.%20Bendosari%2C%20Kabupaten%20Sukoharjo%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1729079067879!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          style="border:0; width:100%; height:400px;"
+        ></iframe>
+      </div>
+
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email" />
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffc107" fill-opacity="1" d="M0,224L80,240C160,256,320,288,480,298.7C640,309,800,299,960,282.7C1120,267,1280,245,1360,234.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+  </section>
+  <!-- Akhir Contact -->
+
+     <!-- Footer -->
+     <footer class="bg-warning text-white text-center pb-5">
+      <p>Created by<i class="bi bi-heart-pulse-fill text-warning"></i> Me <a href="https://www.instagram.com/lyannf_?igsh=enB4NGFobWNnZWhi" class="text-dark fw-bold">Aprilyan Candra Utama</a></p>
+    </footer>
+
+    <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
